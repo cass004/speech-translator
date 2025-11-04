@@ -100,8 +100,8 @@ screen_width = root.winfo_screenwidth()
 screen_height = root.winfo_screenheight()
 
 # For 3.5" display, keep compact size (90% width, 95% height)
-win_width = int(screen_width * 0.95)
-win_height = int(screen_height * 0.95)
+win_width = int(screen_width * 0.85)
+win_height = int(screen_height * 0.85)
 
 x_pos = (screen_width // 2) - (win_width // 2)
 y_pos = (screen_height // 2) - (win_height // 2)
