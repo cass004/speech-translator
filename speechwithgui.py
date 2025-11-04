@@ -1,4 +1,4 @@
-mport tkinter as tk
+import tkinter as tk
 from tkinter import ttk, messagebox
 import speech_recognition as sr
 from deep_translator import GoogleTranslator
